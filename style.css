@@ -1,0 +1,351 @@
+/* Stylesheet for L.A. Rights
+   Kacy McKibben
+   July 2016
+   www.larights.com*/
+
+/*=== GENERAL STYLES ===*/
+body {
+	font-family: Merriweather, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 101px;
+}
+h1, h2, h3 {
+	color: #172A40;
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+}
+h3 {
+	line-height: 1.6;
+}
+h4, h5 {
+	font-weight: 400;
+}
+p {
+	line-height: 26px;
+}
+a{
+	color: #647C94;
+}
+li {
+	line-height: 2.0em;
+}
+.large-text {
+	line-height: 42px;
+	padding: 0 0 15px 0;
+}
+.font-italic {
+	font-style: italic;
+}
+.btn {
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+	font-family: Lato, sans-serif;
+}
+.page-title {
+	padding: 30px 0 20px 0;
+}
+.align-top {
+	margin-top: 0!important;
+	padding-top: 0!important;
+}
+.language {
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+.white {
+	color: #fff;
+}
+
+/*=== HOME ===*/
+/*--- Navigation ---*/
+.navbar-brand {
+	/*display: inline-block;
+	text-indent: -9999px;
+	background: url(img/logo.png) no-repeat;
+	height: 76px;
+	width: 177px;
+	margin-right: 20px;*/
+	display: flex;
+	justify-content: center;
+	height: 81px;
+	margin: 10px;
+}
+.tagline {
+	margin: 20px 0 !important;
+	top: 50%;
+	width: 180px;
+	display: inline-block;
+}
+.navbar {
+	background-color: rgba(255,255,255,1);
+	-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.4);
+ 	-moz-box-shadow:0px 1px 3px rgba(0,0,0,0.4);
+ 	box-shadow:0px 1px 3px rgba(0,0,0,0.4);
+}
+.navbar-brand {
+	padding: 10px;
+}
+.navbar-nav {
+	padding: 0 20px;
+}
+.nav-link {
+	color: #1e1e1e;
+	padding: 10px 20px 10px 20px !important;
+	margin-top: 30px;
+}
+.nav-link a:hover {
+	color: #15314A;
+}
+.active {
+	border-bottom: 3px solid #15314A;
+}
+
+/*--- Jumbotron ---*/
+.jumbotron {
+	background-image: url(img/bannercolor.png);
+	background-size: cover;
+	padding: 80px 100px 20px 100px;
+	margin-bottom: 0;
+	color: #15314A;
+}
+#jumbotron-text {
+	font-size: 42px;
+	line-height: 60px;
+}
+
+/*=== Call to Actions CTA ===*/
+/*--- General CTA Styles ---*/
+.schedule-an-appt {
+	font-size: 20px;
+}
+.phone {
+	font-family: Merriweather, serif;
+	font-size: 24px;
+}
+.btn-cta {
+	background-color: #647C94;
+	color: #fff;
+	margin: 20px;
+	padding: 15px 25px;	
+}
+.btn-cta-darkblue {
+	background-color: #172A40;
+	color: #fff;
+	margin: 20px;
+	padding: 15px 25px;	
+}
+.btn-cta:hover {
+	color: rgba(255,255,255,0.5);
+}
+.or-hr {
+	margin-bottom: 0;
+	margin-top: 0px;
+	position: relative;
+	top: 19px;
+	height: 0;
+	border: 0;
+	border-top: 1px solid #fff;
+	width: 70%;
+}
+.or-hr-grey {
+	margin-bottom: 0;
+	margin-top: 0px;
+	position: relative;
+	top: 19px;
+	height: 0;
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,0.3);
+	width: 70%;
+}
+#or {
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	background-color: #15314A;
+	font-size: 0.9em;
+}
+#or-grey {
+	color: #000;
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	background-color: #FBFBFB;
+	font-size: 0.9em;
+}
+
+/*--- Home CTA ---*/
+#maincta {
+	/*background-color: #D6DADF;*/
+}
+.maincta-bg {
+	background-color: #15314A;
+	color: #fff;
+	padding: 60px 0;
+}
+.maincta-text {
+	font-size: 16px;
+	line-height: 28px;
+}
+.or-container {
+	text-align: center;
+	margin: 0;
+	clear: both;
+	color: #6a737c;
+	font-variant: small-caps;
+}
+.message {
+	height: 80px;
+	width: 100%;
+}
+label {
+	margin-top: 10px;
+}
+input, textarea {
+	border: 1px solid #999;
+	width: 100%;
+}
+input:focus, .message:focus {
+	outline: none;
+}
+.btn-form {
+	margin: 20px 0;
+	background-color: #647C94;
+	color: #fff;
+}
+.btn-form:hover {
+	color: #fff;
+}
+#ctaform {
+	padding: 0 50px;
+}
+.ctatext {
+	padding: 0 30px;
+}
+
+/*--- Small CTA ---*/
+.ctasmall {
+	background-color: #15314A;
+	color: #fff;
+	padding: 40px 0;
+}
+
+/*=== NONHOME NAV ===*/
+.nonhome {
+	border-bottom: 1px solid #1e1e1e;
+}
+
+/*=== REVIEWS ===*/
+.reviews {
+	padding: 30px 0;
+}
+.review-header {
+	padding: 20px 0;
+}
+.review {
+	padding: 10px;
+}
+
+/*=== FOOTER ===*/
+footer {
+	background-color: #F6F6F6;
+	padding: 40px 20px;
+}
+.footer-label {
+	padding: 2px 10px;
+	text-align: right;
+}
+footer .nav-link {
+	margin-top: 0;
+}
+/*
+.work-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+/*=== ABOUT ===*/
+#about-col {
+	padding-right: 25px;
+}
+.descriptor {
+	padding: 0 0 15px 0;
+}
+.panel {
+	background-color: #F6F6F6;
+	border-radius: 0;
+	margin-top: 20px;
+}
+.panel-default {
+	border-color: transparent;
+}
+.panel-body {
+	padding: 25px 35px;
+}
+#info {
+	padding: 10px 0;
+}
+.info-title {
+	color: rgba(0,0,0,0.5);
+	font-size: 12px;
+	padding: 5px 10px 5px 0;
+}
+#map {
+	margin: 10px 0;
+}
+#social-media {
+	padding: 20px;
+}
+.social-media-title {
+	margin: 20px 0;
+}
+.gplus-img {
+	width: 20%;
+}
+.yelp-img {
+	width: 40%;
+}
+
+/*=== SERVICES ===*/
+.sub-title {
+	color: #172A40;
+	padding: 15px 0 3px 0;
+}
+.sidebar-title {
+	font-family: Lato;
+	font-size: 20px;
+	padding-top: 40px!important;
+}
+.sidebar-nav > .navbar {
+	background-color: #172A40;
+	border: transparent!important;
+}
+.sidebar-nav > .navbar > ul > li {
+	float:none;
+}
+.sidebar-nav > .navbar > ul > li > a {
+	color: #fff;
+}
+.sidebar-nav > .navbar > ul > li > a:hover, .sidebar-nav > .navbar > ul > li > a:focus {
+	color: #000;
+}
+.targetDiv {
+	padding: 40px 20px 20px 20px;
+}
+.reviews {
+	background-color: #F6F6F6;
+}
+.link {
+	
+	
+}
+a.more-btn {
+	
+	
+}
