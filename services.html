@@ -18,7 +18,6 @@
 <body>
 	<nav class="navbar navbar-fixed-top">
 		<a class="navbar-brand" href="index.html"><img src="img\logo.svg"></a>
-		<!--<p class="tagline">We believe in and fight for the rights of immigrants</p>-->
 		<ul class="nav navbar-nav navbar-right">
 			<li><a class="nav-link" href="index.html">Home</a></li>
 			<li><a class="nav-link" href="about.html">About</a></li>
@@ -206,14 +205,6 @@
 					<span class="content">Ms. Kuwahara’s services are very affordable and her interest in helping the immigrant community is without precedent. After assessing my case and explaining the process in simple terms, I decided to let her handle my already complicated case.  She kept me informed at every stage of the process and thanks to her hard work now I enjoy legal staying in this country. I remain so thankful for her help.  Ms. Kuwahara’s compassion for the immigrant community is impressive.  Ms. Kuwahara is a strong fighter for human rights and advocates for the less fortunate. Her interaction with the immigrant community has given her the understanding of the legal difficulties it faces on a daily basis in this country.<br><br>Without hesitation I recommend Ms. Kuwahara’s services to family members, friends and to everyone in need of an excellent representation on immigration matters.”</span><a class="more-btn" href="">Read more...</a></p>		
 					<p>- Levi</p>
 				</div>
-				
-				<!--<div class="row">
-					<button class="btn" onclick="showDiv()">READ MORE</button>
-					<div class="content">test Without hesitation I recommend Ms. Kuwahara’s services to family members, friends and to everyone in need of an excellent representation on immigration matters.test Without hesitation I recommend Ms. Kuwahara’s services to family members, friends and to everyone in need of an excellent representation on immigration matters.test Without hesitation I recommend Ms. Kuwahara’s services to family members, friends and to everyone in need of an excellent representation on immigration matters.”</div>
-					<a class="more-btn" href="">Read more</a>
-				
-					
-				</div>-->
 				<small>These testimonials or endorsements do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter.</small>
 			</div>
 			<div class="col-md-3"></div>
@@ -261,27 +252,6 @@
 		</div>
 	</footer>
 	<script type="text/javascript">
-	/*jQuery(document).ready(function(){
-	    jQuery('#services-item').live('click', function(event) {        
-	         jQuery('#services-main').toggle('show');
-	    });
-	    jQuery('#asylum-item').live(function() {
-	    	jQuery('#asylum').toggle('show');
-	    	jQuery('#services-main').toggle('hide');
-	    });
-	});*/
-
-
-	/*function showDiv() {
-	   document.getElementById('expand-review-1').style.display = "block";
-	   document.getElementById('expand-review-2').style.display = "block";
-	   document.getElementById('collapse-review-1').style.display = "none";
-	}
-	jQuery(function(){
-         jQuery('#showall').click(function(){
-               jQuery('.targetDiv').show();
-        });
-	});*/
 
 	$(document).ready(function () {
 		$('.targetDiv').hide();
@@ -290,45 +260,12 @@
               jQuery('.targetDiv').hide();
               jQuery('#div'+$(this).attr('data-target')).show();
         });
-		/*var moretext = "more";
-		var lesstext = "less";
-		var ellipsestext = "...";
-		var showChar = 100;
-
-		$('.more').each(function() {
-			var content = $(this).html();
-
-			if(content.length > showChar) {
-				var c = content.substr(0, showChar);
-				var h = content.substr(showChar-1, content.length - showChar);
-
-				var html = c + '<span class="moreellipses">' + ellipsestext + '</span>&nbsp;<span class="morecontent"><span>'+ h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-
-				$(this).html(html);
-			}
-		})
-
-		$(".morelink").click(function() {
-			if($(this).hasClass("less")) {
-				$(this).removeClass("less");
-				$(this).html(moretext);
-			} else {
-				$(this).addClass("less");
-				$(this).html(lesstext);
-			}
-			$(this).parent().prev().toggle();
-			$(this).prev().toggle();
-			return false;
-		})*/
 		
 		$(".content").hide();
 		$(".more-btn").click(function (event) {
 			event.preventDefault();
 			$(this).parent().find(".content").slideToggle(200);
 			$(this).text($(this).text() == 'Read less...' ? 'Read more...' : 'Read less...')
-			/*var txt = $(".content").is(':visible') ? 'Read More' : 'Less';
-			$(".more-btn").text(txt);
-			$(".content").slideToggle(200);*/
 		});
 	});
 	</script>
