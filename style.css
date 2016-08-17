@@ -40,6 +40,11 @@ li {
 .btn {
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 	font-family: Lato, sans-serif;
+	font-weight: 700;
+}
+.btn-espanol {
+	background-color: #172536;
+	color: #fff;
 }
 .page-title {
 	padding: 30px 0 20px 0;
@@ -53,6 +58,9 @@ li {
 }
 .white {
 	color: #fff;
+}
+.img-center {
+	margin: 0 auto;
 }
 
 /*=== HOME ===*/
@@ -68,6 +76,7 @@ li {
 	justify-content: center;
 	height: 81px;
 	margin: 10px;
+	padding: 10px;
 }
 .tagline {
 	margin: 20px 0 !important;
@@ -80,9 +89,6 @@ li {
 	-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.4);
  	-moz-box-shadow:0px 1px 3px rgba(0,0,0,0.4);
  	box-shadow:0px 1px 3px rgba(0,0,0,0.4);
-}
-.navbar-brand {
-	padding: 10px;
 }
 .navbar-nav {
 	padding: 0 20px;
@@ -97,6 +103,59 @@ li {
 }
 .active {
 	border-bottom: 3px solid #15314A;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		/*display: inline-block;
+		text-indent: -9999px;
+		background: url(img/logo.png) no-repeat;
+		height: 76px;
+		width: 177px;
+		margin-right: 20px;*/
+
+		display: inline;
+		/*justify-content: center;
+		height: 50px;*/
+		float:none;
+		
+		margin: 0px;
+		/*position: absolute;
+		text-align: center;*/
+		/*left: 0;
+		top: 0;*/
+		/*margin: 0px auto!important;*/
+		padding: 2px 0px;
+	}
+	.navbar-brand-div {
+		position: absolute;
+		text-align: center;
+		left: 0;
+		top: 0;
+		margin: 0px auto!important;
+		padding: 0px;
+		width: 100%!important;
+	}
+	.navbar-brand > img {
+		margin: 7px auto!important;
+		width: 100px;
+	}
+	.navbar-toggle {
+		border: transparent;
+		float: left;
+		margin: 13px;
+		padding: 6px 12px!important;
+		z-index: 1;
+	}
+	.nav-link-espanol {
+		display: inline!important;
+		float: right;
+		padding: 5px!important;
+		z-index: 2;
+	}
+	#nav-link-espanol-desktop {
+		display: none!important;
+	}
 }
 
 /*--- Jumbotron ---*/
@@ -115,21 +174,22 @@ li {
 /*=== Call to Actions CTA ===*/
 /*--- General CTA Styles ---*/
 .schedule-an-appt {
-	font-size: 20px;
+	font-size: 18px;
+	padding-top: 15px;
 }
 .phone {
 	font-family: Merriweather, serif;
 	font-size: 24px;
 }
 .btn-cta {
-	background-color: #647C94;
-	color: #fff;
+	background-color: #E78328;
+	color: #000;
 	margin: 20px;
 	padding: 15px 25px;	
 }
 .btn-cta-darkblue {
-	background-color: #172A40;
-	color: #fff;
+	background-color: #E78328;
+	color: #000;
 	margin: 20px;
 	padding: 15px 25px;	
 }
@@ -160,7 +220,7 @@ li {
 	display: inline-block;
 	position: relative;
 	padding: 10px;
-	background-color: #15314A;
+	background-color: #172536;
 	font-size: 0.9em;
 }
 #or-grey {
@@ -223,7 +283,7 @@ input:focus, .message:focus {
 
 /*--- Small CTA ---*/
 .ctasmall {
-	background-color: #15314A;
+	background-color: #14324B;
 	color: #fff;
 	padding: 40px 0;
 }
@@ -251,6 +311,7 @@ footer {
 }
 .footer-label {
 	color: #848484;
+	font-family: Lato;
 	font-size: 12px;
 	font-weight: 300;
 	padding: 2px 10px;
@@ -326,7 +387,7 @@ footer .nav-link {
 	padding-top: 40px!important;
 }
 .sidebar-nav > .navbar {
-	background-color: #172A40;
+	background-color: #14324B;
 	border: transparent!important;
 }
 .sidebar-nav > .navbar > ul > li {
