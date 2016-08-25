@@ -8,36 +8,65 @@
 	<link rel="shortcut icon" href="favicon.ico?" type="image">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="https://use.typekit.net/fvj7blr.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="https://use.typekit.net/fvj7blr.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 </head>
 <body>
-	<nav class="navbar navbar-fixed-top">
-		<a class="navbar-brand" href="index.html"><img src="img\logo.svg"></a>
-		<!--<p class="tagline">We believe in and fight for the rights of immigrants</p>-->
-		<ul class="nav navbar-nav navbar-right">
-			<li><a class="nav-link active" href="index.html">Home</a></li>
-			<li><a class="nav-link" href="about.html">About</a></li>
-			<li><a class="nav-link" href="services.html">Services</a></li>
-			<li><a class="nav-link" href="contact.html">Contact</a></li>
-			<li><a class="nav-link" href="#">Espanol</a></li>
-		</ul>
-	</nav>
-	<div class="jumbotron">
-		<div class="row text-center">
-			<div class="col-md-2"></div>
-			<div class="col-md-8">
-				<h1 id="jumbotron-text">We believe in and fight for the rights of immigrants</h1>
-				<a href="contact.html"><button class="btn btn-cta">CONTACT US</button></a>
-			</div>
-			<div class="col-md-2"></div>
+	<nav class="navbar navbar-fixed-top" role="navigation"> <!-- removed navbar-default -->
+		<div class="navbar-header">
+			<button type="button" class="btn btn-espanol navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        Menu
+		    </button>
+		    <div class="navbar-brand-div">
+		    	<a class="navbar-brand" href="index.html"><img class="img-responsive" src="img\logo.svg"></a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+				<li><a class="nav-link-espanol" style="display:none" href="#"><button class="btn btn-espanol">Español</button></a></li>
+			</ul>
 		</div>
-	</div>
+		<ul id="nav-link-espanol-desktop" class="nav navbar-nav navbar-right">
+			<li><a class="nav-link-espanol" href="#"><button class="btn btn-espanol">Español</button></a></li>
+		</ul>
+		<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a class="nav-link active" href="index.html">HOME</a></li>
+				<li><a class="nav-link" href="about.html">ABOUT</a></li>
+				<li><a class="nav-link" href="services.html">SERVICES</a></li>
+				<li><a class="nav-link" href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		
+	</nav>
+
+	<!-- MOBILE -->
+
+	<!-- END OF MOBILE -->
+
 	<div class="container-fluid">
+		<div class="jumbotron">
+			<div class="row text-center">
+				<!-- <div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h1 id="jumbotron-text">L.A. Rights Law Office</h1>
+					<h3>We believe in and fight for the rights of immigrants</h3>
+					<a href="contact.html"><button class="btn btn-cta">CONTACT US</button></a>
+				</div>
+				<div class="col-md-2"></div> -->
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<img class="img-responsive jumbotron-img" alt="main img" src="img/mainimg.png" /><h1 id="jumbotron-text">We believe in and fight for the rights of immigrants</h1>
+					<h3>Get started by contacting L.A. Rights today:</h3>
+					<a href="contact.html"><button class="btn btn-cta">CONTACT US</button></a>
+					<p>Or <a class="jumbotron-link" href="about.html">read more</a> about our services</p>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+	
 		<div class="row maincta-bg">
 			<div class="container" id="maincta">
 				<div class=""></div>
@@ -48,21 +77,21 @@
 				</div>
 				<div class="col-md-5 col-sm-6">
 					<div class="text-center">
-						<p class="schedule-an-appt">Schedule an appointment:</p>
-						<p class="">310-906-0946</p>
+						<p class="schedule-an-appt-home">Schedule an appointment:</p>
+						<p class="phone">310-906-0946</p>
 						<div class="or-container">
 							<hr class="or-hr">
 							<div id="or">or</div>
 						</div>
 					</div>
 					<form id="ctaform" method="post" action="contact.php" onsubmit="validateForm();">
-						<label>Name</label><br>
+						<label>NAME</label><br>
 						<input id="name" name="name"><br>
-						<label>Email</label><br>
+						<label>EMAIL</label><br>
 						<input id="email" name="email" type="email"><br>
-						<label>Phone</label><br>
+						<label>PHONE</label><br>
 						<input id="phone" name="phone" type="tel"><br>
-						<label>Message</label><br>
+						<label>MESSAGE</label><br>
 						<textarea id="message" rows="8" class="message" name="message" type="text"></textarea>
 						<input id="submit" class="btn btn-form" name="submit" type="submit" value="SEND">
 					</form>
@@ -70,13 +99,12 @@
 				<div class="col-md-1"></div>
 			</div>
 		</div>
-		<div class="reviews">
-			<div class="row">
+		<!-- <div class="reviews"> -->
+			<div class="row reviews">
 				<div class="col-md-3"></div>
 				<div class="col-md-6 text-center">
 					<div class="row review-header">
 						<h2>What people are saying about L.A. Rights</h2>
-						<small>These testimonials or endorsements do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter.</small>
 					</div>
 					<div class="row review">
 						<p>“Ms. Kuwahara has been extremely informative and helpful throughout our legal process.”</p>
@@ -96,7 +124,7 @@
 				</div>
 				<div class="col-md-3"></div>
 			</div>
-		</div>
+		<!-- </div> -->
 		<div class="row ctasmall">
 			<div class="col-md-4"></div>
 			<div class="col-md-4 text-center">
@@ -106,37 +134,36 @@
 					<hr class="or-hr">
 					<div id="or">or</div>
 				</div>
-				<a href=""><button class="btn btn-cta">SEND A MESSAGE</button></a>
+				<a href="contact.html"><button class="btn btn-cta">SEND A MESSAGE</button></a>
 			</div>
 			<div class="col-md-4"></div>
 		</div>
 	</div>
 	<footer>
-		<div class="row">
-			<div class="col-md-6">
-				<ul class="nav navbar-nav">
-					<li><a class="nav-link" href="#">HOME</a></li>
-					<li><a class="nav-link" href="#">ABOUT US</a></li>
-					<li><a class="nav-link" href="#">OUR SERVICES</a></li>
-					<li><a class="nav-link" href="#">CONTACT US</a></li>
-					<li><a class="nav-link" href="#">Espanol</a></li>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<table>
-					<tbody>
-						<tr>
-							<td class="footer-label">PHONE</td><td>(310) 906-0946</td>
-						</tr>
-						<tr>
-							<td class="footer-label">ADDRESS</td><td>1320 West Gardena Blvd, Suite 203</td>
-						</tr>
-						<tr>
-							<td></td><td>Gardena, CA 90247</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+		<div class="col-md-6">
+			<table>
+				<tbody>
+					<tr>
+						<td class="footer-label">PHONE</td><td>(310) 906-0946</td>
+					</tr>
+					<tr>
+						<td class="footer-label">HOURS</td><td>Mon - Fri, 8 am - 5 pm</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6">
+			<table>
+				<tbody>
+					<tr>
+						<td class="footer-label">ADDRESS</td><td>1320 West Gardena Blvd, Suite 203</td>
+					</tr>
+					<tr>
+						<td></td><td>Gardena, CA 90247</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</footer>
 </body>

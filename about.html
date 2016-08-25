@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href='https://fonts.googleapis.com/css?family=Lato:900,700,400,300,100|Merriweather:700,400,300,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:900,700,400,300,100|Merriweather:700,400,300' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About | Immigration Law | Los Angeles, CA | L.A. Rights Law Office</title>
+	<title>Services | Immigration Law | Los Angeles, CA | L.A. Rights Law Office</title>
 	<link rel="shortcut icon" href="favicon.ico?" type="image">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 </head>
 <body>
-	<nav class="navbar navbar-fixed-top">
-		<a class="navbar-brand" href="index.html"><img src="img\logo.svg"></a>
-		<!--<p class="tagline">We believe in and fight for the rights of immigrants</p>-->
-		<ul class="nav navbar-nav navbar-right">
-			<li><a class="nav-link active" href="index.html">Home</a></li>
-			<li><a class="nav-link" href="about.html">About</a></li>
-			<li><a class="nav-link" href="services.html">Services</a></li>
-			<li><a class="nav-link" href="contact.html">Contact</a></li>
-			<li><a class="nav-link language" href="#">Espanol</a></li>
+	<nav class="navbar navbar-fixed-top" role="navigation"> <!-- removed navbar-default -->
+		<div class="navbar-header">
+			<button type="button" class="btn btn-espanol navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        Menu
+		    </button>
+		    <div class="navbar-brand-div">
+		    	<a class="navbar-brand" href="index.html"><img class="img-responsive" src="img\logo.svg"></a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+				<li><a class="nav-link-espanol" style="display:none" href="#"><button class="btn btn-espanol">Español</button></a></li>
+			</ul>
+		</div>
+		<ul id="nav-link-espanol-desktop" class="nav navbar-nav navbar-right">
+			<li><a class="nav-link-espanol" href="#"><button class="btn btn-espanol">Español</button></a></li>
 		</ul>
+		<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a class="nav-link" href="index.html">Home</a></li>
+				<li><a class="nav-link active" href="about.html">About</a></li>
+				<li><a class="nav-link" href="services.html">Services</a></li>
+				<li><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
 	</nav>
 	<div class="container">
 		<div id="maincta">
@@ -33,11 +51,13 @@
 					<h3 class="descriptor">About Deniece Kuwahara</h3>
 					<div class="row">
 						<div class="col-md-4">
-							<img class="img-responsive" src="img/pic_about.jpg" alt="deniece" />
+							<img class="img-responsive lawyer-photo" src="img/pic_about.jpg" alt="deniece" />
 						</div>
 						<div class="col-md-8">
-							<h4 class="align-top font-italic">Attorney at Law</h4>
-							<h4 class="font-italic">University of Colorado at Boulder</h4>
+							<div class="lawyer-title">
+								<h4 class="align-top font-italic">Attorney at Law</h4>
+								<h4 class="font-italic">University of Colorado at Boulder</h4>
+							</div>
 							<p>Deniece was born and raised in Los Angeles. She brings years of experience in immigration law and is a strong and passionate believer in immigrant rights. She brings passion to her work and has devoted her practice exclusively to assisting immigrants with the complex legal system that surrounds immigration matters.</p>
 						</div>
 					</div>
@@ -54,15 +74,15 @@
 							<h5 class="font-italic"><b>Location</b></h5>
 							<table id="info">
 								<tr>
-									<td class="info-title">PHONE</td>
+									<td class="footer-label">PHONE</td>
 									<td>(310)906-0946</td>
 								</tr>
 								<tr>
-									<td class="info-title">HOURS</td>
+									<td class="footer-label">HOURS</td>
 									<td>Mon - Fri, 8 am - 5 pm</td>
 								</tr>
 								<tr>
-									<td class="info-title">ADDRESS</td>
+									<td class="footer-label">ADDRESS</td>
 									<td>1320 West Gardena Blvd, Suite 203</td>
 								</tr>
 								<tr>
@@ -70,15 +90,16 @@
 									<td>Gardena, CA 90247</td>
 								</tr>
 							</table>
-							<div id="map">
+							<div id="map" class="text-center">
 								<iframe class="actAsDiv" max-width="100%" height="262" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=1320%20West%20Gardena%20Blvd.%2C%20Suite%20203%20%E2%80%A2%20Gardena%2C%20CA%2090247&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+								<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13249.314881277616!2d-118.30716413223034!3d33.881186934172334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ca82bdc345b1%3A0x3a61fc7af68d4e41!2s1320+W+Gardena+Blvd+%23203%2C+Gardena%2C+CA+90247!5e0!3m2!1sen!2sus!4v1472003411017" width="284" height="262" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 							</div>
 							<div class="row" id="social-media">
 								<h5 class="social-media-title font-italic"><b>Social Media</b></h5>
-								<div class="col-md-6">
-									<a href="#"><img class="gplus-img" src="img/gplus-logo.png" alt="gplus-logo" /> Google Plus</a>
+								<div class="col-xs-6">
+									<a id="gplus-link" href="#"><img class="gplus-img" src="img/gplus-logo.png" alt="gplus-logo" /> Google Plus</a>
 								</div>
-								<div class="col-md-6">
+								<div class="col-xs-6">
 									<a href="#"><img class="yelp-img" src="img/yelp-logo.png" alt="yelp-logo" /></a>
 								</div>
 							</div>
@@ -135,31 +156,30 @@
 		
 	</div>
 	<footer>
-		<div class="row">
-			<div class="col-md-6 col-sm-6">
-				<ul class="nav navbar-nav">
-					<li><a class="nav-link" href="#">Home</a></li>
-					<li><a class="nav-link" href="#">About</a></li>
-					<li><a class="nav-link" href="#">Services</a></li>
-					<li><a class="nav-link" href="#">Contact</a></li>
-					<li><a class="nav-link language" href="#">View website in: Espanol</a></li>
-				</ul>
-			</div>
-			<div class="col-md-6 col-sm-6">
-				<table class="pull-right">
-					<tbody>
-						<tr>
-							<td class="footer-label">PHONE</td><td>(310) 906-0946</td>
-						</tr>
-						<tr>
-							<td class="footer-label">ADDRESS</td><td>1320 West Gardena Blvd, Suite 203</td>
-						</tr>
-						<tr>
-							<td></td><td>Gardena, CA 90247</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+		<div class="col-md-6">
+			<table>
+				<tbody>
+					<tr>
+						<td class="footer-label">PHONE</td><td>(310) 906-0946</td>
+					</tr>
+					<tr>
+						<td class="footer-label">HOURS</td><td>Mon - Fri, 8 am - 5 pm</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6">
+			<table>
+				<tbody>
+					<tr>
+						<td class="footer-label">ADDRESS</td><td>1320 West Gardena Blvd, Suite 203</td>
+					</tr>
+					<tr>
+						<td></td><td>Gardena, CA 90247</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</footer>
 	<!--<script>
