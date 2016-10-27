@@ -13,7 +13,7 @@ html, body {
 }
 body {
 	color: #353535;
-	font-family: Merriweather, sans-serif;
+	font-family: Lato, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	padding-top: 77px;
@@ -23,12 +23,13 @@ body {
 		padding-top: 68px;
 	}
 }
-h1, h2, h3 {
+h1, h2 {
 	color: #14324B; /* dark blue */
 	font-family: Lato, sans-serif;
 	font-weight: 700;
 }
 h3 {
+	font-weight: 400;
 	line-height: 1.6;
 }
 h4, h5 {
@@ -45,7 +46,7 @@ li {
 	line-height: 2.0em;
 }
 .large-text {
-	color: #fff;
+	color: #353535;
 	line-height: 42px;
 	padding: 0 0 15px 0;
 }
@@ -53,13 +54,14 @@ li {
 	font-style: italic;
 }
 .btn {
+	border-radius: 0;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 	font-family: Lato, sans-serif;
 	font-weight: 700;
 }
 .btn-espanol {
-	background-color: #507798;
-	color: #fff;
+	background-color: #FFCA84;
+	color: #353535;
 	font-weight: 400;
 }
 .btn-espanol:hover {
@@ -216,25 +218,35 @@ a.nav-link-espanol:hover {
 
 /*--- Jumbotron ---*/
 .jumbotron {
-	/*background-image: url(img/bannercolor.png);
+	background-image: url(img/law-building.png);
 	background-size: cover;
-	padding: 80px 100px 20px 100px;
+	border-radius: 0!important;
+	padding: 140px 100px 60px 100px;
 	margin-bottom: 0;
-	color: #14324B;*/
-	background-color: transparent;
+	color: #14324B;
+	width: 100%;
+}
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
 }
 #jumbotron-text {
-	color: #14324B;
-	font-size: 32px;
+	color: #fff;
+	font-size: 36px;
 	line-height: 60px;
+}
+.jumbotron-text-color {
+	color: #fff;
 }
 .jumbotron-img {
 	margin: 0 auto;
 }
-/*.jumbotron-link {
-	display: block;
-}*/
+.jumbotron-link {
+	color: #fff;
+	text-decoration: underline;
+}
 .jumbotron p {
+	color: #fff;
 	font-size: 13px;
 	line-height: 18px;
 }
@@ -265,18 +277,20 @@ a.nav-link-espanol:hover {
 	padding-top: 15px;
 }
 .phone {
-	font-family: Merriweather, serif;
-	font-size: 24px;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	padding: 10px 0 10px 0;
 }
 .btn-cta {
-	background-color: #FFAB3C;
-	color: #000;
+	background-color: #FFCA84;
+	color: #353535;
 	margin: 10px 20px;
 	padding: 15px 25px;	
 }
 .btn-cta-darkblue {
-	background-color: #FFAB3C;
-	color: #000;
+	background-color: #FFCA84;
+	color: #353535;
 	margin: 10px 20px;
 	padding: 15px 25px;	
 }
@@ -291,7 +305,7 @@ a.nav-link-espanol:hover {
 	top: 19px;
 	height: 0;
 	border: 0;
-	border-top: 1px solid #fff;
+	border-top: 1px solid #a8a8a8;
 	width: 70%;
 }
 .or-hr-grey {
@@ -308,15 +322,16 @@ a.nav-link-espanol:hover {
 	display: inline-block;
 	position: relative;
 	padding: 10px;
-	background-color: #14324B;
+	background-color: #FBFAF8;
+	color: #a8a8a8;
 	font-size: 0.9em;
 }
 #or-grey {
-	color: #000;
+	color: #fff;
 	display: inline-block;
 	position: relative;
 	padding: 10px;
-	background-color: #FBFBFB;
+	background-color: #172A40;
 	font-size: 0.9em;
 }
 
@@ -325,13 +340,16 @@ a.nav-link-espanol:hover {
 	/*background-color: #D6DADF;*/
 }
 .maincta-bg {
-	background-color: #14324B;
-	color: #fff;
+	background-color: #FBFAF8; /*#25282B;*/
+	color: #353535;
 	padding: 60px 0;
 }
 .maincta-text {
 	font-size: 16px;
 	line-height: 28px;
+}
+.schedule {
+	border: 1px solid #000;
 }
 .or-container {
 	text-align: center;
@@ -351,7 +369,7 @@ label {
 	margin-top: 10px;
 }
 input, textarea {
-	border: 1px solid #999;
+	border: 1px solid #a8a8a8;
 	width: 100%;
 }
 input:focus, .message:focus {
@@ -359,8 +377,8 @@ input:focus, .message:focus {
 }
 .btn-form {
 	margin: 20px 0;
-	background-color: #FFAB3C;
-	color: #000;
+	background-color: #FFCA84;
+	color: #353535;
 }
 .btn-form:hover {
 	background-color: #FFBD66;
@@ -374,7 +392,7 @@ input:focus, .message:focus {
 }
 /*--- Small CTA ---*/
 .ctasmall {
-	background-color: #14324B;
+	background-color: #172A40;
 	color: #fff;
 	padding: 40px 0;
 }
