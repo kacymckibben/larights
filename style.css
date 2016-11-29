@@ -192,13 +192,13 @@ a.nav-link-espanol:hover {
 		border: transparent;
 		float: left;
 		margin: 13px 5px 5px 5px;
-		padding: 6px 12px!important;
+		padding: 6px 19px!important;
 		z-index: 1;
 	}
 	.nav-link-espanol {
 		display: inline!important;
 		float: right;
-		padding: 5px!important;
+		padding: 4px 6px!important;
 		z-index: 2;
 	}
 	#nav-link-espanol-desktop {
@@ -219,6 +219,7 @@ a.nav-link-espanol:hover {
 /*--- Jumbotron ---*/
 .jumbotron {
 	background-image: url(img/law-building.png);
+	background-position: center;
 	background-size: cover;
 	border-radius: 0!important;
 	padding: 140px 100px 60px 100px;
