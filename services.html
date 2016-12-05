@@ -1,3 +1,7 @@
+<?php
+include('mobile.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,13 +78,10 @@
 				<li><a class="nav-link" href="contact.html">CONTACT</a></li>
 			</ul>
 		</div>
-		
 	</nav>
-
-	<!-- MOBILE -->
-	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-		test
-	}
+	<?php
+	if($IS_MOBILE){
+	?>
 	<div class="text-center">
 		<h3>Our Services</h3>
 		<p>Our firm offers a variety of immigration services including family petitions, naturalization and other nonimmigrant visas. The information contained on our website is general information concerning our immigration laws.</p>
@@ -193,6 +194,9 @@
 			<input id="submit" class="btn btn-form" name="submit" type="submit" value="SEND">
 		</form>
 	</div>
+	<?php } 
+	if(!$IS_MOBILE){
+	?>
 	<div class="container-fluid fill" style="position:absolute;">
 	  	<div class="row fill">
 	      	<div id="sidebar-col" class="col-sm-4 fill">
@@ -413,6 +417,7 @@
 			</div>
 			<div class="col-md-4"></div>
 	    </div>
+	    <?php } ?>
 	    <footer>
 			<div class="row">
 				<div class="col-md-6">
