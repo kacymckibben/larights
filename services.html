@@ -181,8 +181,9 @@ include('mobile.php');
 	</div>
 	<div class="container-fluid">
 		<h4>Not sure what you're looking for?</h4>
-		<p>We're happy to help! Give us a call or send us a message:</p>
-		<form id="ctaform" method="post" action="contact.php" onsubmit="validateForm();">
+		<a href="contact.html"><button class="btn btn-cta-darkblue">CONTACT US</button></a>
+		<!--<p>We're happy to help! Give us a call or send us a message:</p>
+		<form id="ctaform" method="post" action="contact-form.php" onsubmit="validateForm();">
 			<label>NAME</label><br>
 			<input id="name" name="name"><br>
 			<label>EMAIL</label><br>
@@ -192,7 +193,7 @@ include('mobile.php');
 			<label>MESSAGE</label><br>
 			<textarea id="message" rows="8" class="message" name="message" type="text"></textarea>
 			<input id="submit" class="btn btn-form" name="submit" type="submit" value="SEND">
-		</form>
+		</form>-->
 	</div>
 	<?php } 
 	if(!$IS_MOBILE){
