@@ -4,6 +4,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:900,700,400,300,100|Merriweather:700,400,300' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="k4kggn84lo0sGn9Ne3dfzVFJIWb42_DEzRpr0j2u380" />
 	<title>Los Angeles Immigration Law Firm | L.A. Rights Law Office</title>
 	<link rel="shortcut icon" href="favicon.ico?" type="image">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
