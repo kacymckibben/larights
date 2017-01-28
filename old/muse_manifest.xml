@@ -1,0 +1,109 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" ftp_hostname="ftp://ftp.netfirms.com" ftp_rootfolder="//public_html/fullforcegraffics.com/larights" exportTarget="FTP" domain="www.larights.com" resolutions="1x" timestamp="1440108398775">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="master_master-services.css" crc="161782793" ref="deportation-defense:daca:vawa:asylum:our-services:dapa"/>
+    <file name="master_master.css" crc="2902114" ref="index:about-us:contact-us:thank-you"/>
+    <file name="index.css" crc="336748798" ref="index"/>
+    <file name="deportation-defense.css" crc="3893896338" ref="deportation-defense"/>
+    <file name="daca.css" crc="526063287" ref="daca"/>
+    <file name="vawa.css" crc="3990622144" ref="vawa"/>
+    <file name="asylum.css" crc="458505154" ref="asylum"/>
+    <file name="our-services.css" crc="3842399406" ref="our-services"/>
+    <file name="about-us.css" crc="289903326" ref="about-us"/>
+    <file name="contact-us.css" crc="3879564340" ref="contact-us"/>
+    <file name="thank-you.css" crc="4246332965" ref="thank-you"/>
+    <file name="dapa.css" crc="4270649518" ref="dapa"/>
+    <file name="master_spanish-services.css" crc="50982850" ref="asilo:defensa-desmontaje:nuestros-servicios:dapa-padres:violencia:daca-infancia"/>
+    <file name="master_spanish-master.css" crc="3980592025" ref="español:gracias:contáctenos:acerca-de-nosotros"/>
+    <file name="asilo.css" crc="3967589008" ref="asilo"/>
+    <file name="defensa-desmontaje.css" crc="169721524" ref="defensa-desmontaje"/>
+    <file name="nuestros-servicios.css" crc="4148862099" ref="nuestros-servicios"/>
+    <file name="dapa-padres.css" crc="135451632" ref="dapa-padres"/>
+    <file name="espa_ol.css" crc="314849601" ref="español"/>
+    <file name="gracias.css" crc="528519227" ref="gracias"/>
+    <file name="violencia.css" crc="432267375" ref="violencia"/>
+    <file name="cont_ctenos.css" crc="4009370166" ref="contáctenos"/>
+    <file name="daca-infancia.css" crc="132120646" ref="daca-infancia"/>
+    <file name="acerca-de-nosotros.css" crc="139695558" ref="acerca-de-nosotros"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:about-us:contact-us:deportation-defense:asylum:daca:dapa:our-services:vawa:thank-you:español:nuestros-servicios:contáctenos:defensa-desmontaje:violencia:asilo:daca-infancia:dapa-padres:gracias:acerca-de-nosotros"/>
+    <file name="museutils.js" crc="275725342" ref="index:about-us:contact-us:deportation-defense:asylum:daca:dapa:our-services:vawa:thank-you:español:nuestros-servicios:contáctenos:defensa-desmontaje:violencia:asilo:daca-infancia:dapa-padres:gracias:acerca-de-nosotros"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:about-us:contact-us:deportation-defense:asylum:daca:dapa:our-services:vawa:thank-you:español:nuestros-servicios:contáctenos:defensa-desmontaje:violencia:asilo:daca-infancia:dapa-padres:gracias:acerca-de-nosotros"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:about-us:contact-us:deportation-defense:asylum:daca:dapa:our-services:vawa:thank-you:español:nuestros-servicios:contáctenos:defensa-desmontaje:violencia:asilo:daca-infancia:dapa-padres:gracias:acerca-de-nosotros"/>
+    <file name="pie.js" crc="3827607177" ref="index:español"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about-us:contact-us:deportation-defense:asylum:daca:dapa:our-services:vawa:thank-you:español:nuestros-servicios:contáctenos:defensa-desmontaje:violencia:asilo:daca-infancia:dapa-padres:gracias:acerca-de-nosotros"/>
+    <file name="webpro.js" crc="3883484123" ref="contact-us:contáctenos"/>
+    <file name="form_check.php" crc="3932029206" ref="contact-us:contáctenos"/>
+    <file name="form_throttle.php" crc="314685628" ref="contact-us:contáctenos"/>
+    <file name="form_process.php" crc="401030677" ref="contact-us:contáctenos"/>
+    <file name="form-u624.php" crc="3927045988" ref="contact-us"/>
+    <file name="form-u1165.php" crc="4272863176" ref="contáctenos"/>
+  </folder>
+  <folder name="images">
+    <file name="mezzo-u237-fr.png" crc="3765806201" ref="index:deportation-defense:español:nuestros-servicios"/>
+    <file name="logo.svg" crc="4263389604" ref="index:about-us:contact-us:deportation-defense:asylum:daca:dapa:our-services:vawa:thank-you:español:nuestros-servicios:contáctenos:defensa-desmontaje:violencia:asilo:daca-infancia:dapa-padres:gracias:acerca-de-nosotros"/>
+    <file name="logo_poster_.png" crc="346014505" ref="index"/>
+    <file name="pic_home1.jpg" crc="231906612" seo="true" ref="index:español"/>
+    <file name="pic_home2.jpg" crc="320216676" seo="true" ref="index:español"/>
+    <file name="pic_home3.jpg" crc="143720836" seo="true" ref="index:español"/>
+    <file name="mezzo-u689-fr.png" crc="388129411" ref="index:español"/>
+    <file name="u77-grad.png" crc="3837751377" ref="index:deportation-defense:español:nuestros-servicios"/>
+    <file name="pic_about.jpg" crc="4084662620" seo="true" ref="about-us:acerca-de-nosotros"/>
+    <file name="u630-17.png" crc="200137309" ref="contact-us"/>
+    <file name="u630-17-r.png" crc="3902635896" ref="contact-us"/>
+    <file name="u630-17-m.png" crc="467777988" ref="contact-us"/>
+    <file name="u630-17-fs.png" crc="178247042" ref="contact-us"/>
+    <file name="pic_services.jpg" crc="334959224" seo="true" ref="our-services:nuestros-servicios"/>
+    <file name="pic_thankyou.jpg" crc="470839358" seo="true" ref="thank-you"/>
+    <file name="u1180-17.png" crc="200137309" ref="contáctenos"/>
+    <file name="u1180-17-r.png" crc="3902635896" ref="contáctenos"/>
+    <file name="u1180-17-m.png" crc="467777988" ref="contáctenos"/>
+    <file name="u1180-17-fs.png" crc="178247042" ref="contáctenos"/>
+    <file name="gracias.jpg" crc="16465538" seo="true" ref="gracias"/>
+  </folder>
+  <file name="index.html" crc="4043915542" seo="true" mt="1440103455510" redirect="true"/>
+  <file name="about-us.html" crc="298095045" seo="true" mt="1437522508012" redirect="true"/>
+  <file name="contact-us.html" crc="4267486940" seo="true" mt="1437522541240" redirect="true"/>
+  <file name="deportation-defense.html" crc="3989629788" seo="true" mt="1437522521785" redirect="true"/>
+  <file name="asylum.html" crc="390658966" seo="true" mt="1437522449134" redirect="true"/>
+  <file name="daca.html" crc="4028283658" seo="true" mt="1437522533756" redirect="true"/>
+  <file name="dapa.html" crc="3941090963" seo="true" mt="1437522449134" redirect="true"/>
+  <file name="our-services.html" crc="3800046620" seo="true" mt="1437522513183" redirect="true"/>
+  <file name="vawa.html" crc="3812340597" seo="true" mt="1437522528331" redirect="true"/>
+  <file name="thank-you.html" crc="300662059" seo="true" mt="1437522545842" redirect="true"/>
+  <file name="español.html" crc="3866966869" seo="true" mt="1440106985264" redirect="true"/>
+  <file name="nuestros-servicios.html" crc="534295056" seo="true" mt="1440107099983" redirect="true"/>
+  <file name="contáctenos.html" crc="3977676975" seo="true" mt="1440106985264" redirect="true"/>
+  <file name="defensa-desmontaje.html" crc="3862257410" seo="true" mt="1440107360833" redirect="true"/>
+  <file name="violencia.html" crc="3892385831" seo="true" mt="1440107457545" redirect="true"/>
+  <file name="asilo.html" crc="357607826" seo="true" mt="1440107560711" redirect="true"/>
+  <file name="daca-infancia.html" crc="329433506" seo="true" mt="1440107970394" redirect="true"/>
+  <file name="dapa-padres.html" crc="296945112" seo="true" mt="1440107825329" redirect="true"/>
+  <file name="gracias.html" crc="3886218190" seo="true" mt="1440106985264" redirect="true"/>
+  <file name="acerca-de-nosotros.html" crc="4170096274" seo="true" mt="1440107033149" redirect="true"/>
+  <linkData>
+    <DESKTOP>
+      <page name="DACA Infancia" filename="daca-infancia.html" muse_href="page:U1133"/>
+      <page name="DAPA" filename="dapa.html" muse_href="page:U126"/>
+      <page name="Home" filename="index.html" muse_href="page:U74"/>
+      <page name="Our Services" filename="our-services.html" muse_href="page:U132"/>
+      <page name="Asilo" filename="asilo.html" muse_href="page:U1127"/>
+      <page name="VAWA" filename="vawa.html" muse_href="page:U138"/>
+      <page name="Thank You" filename="thank-you.html" muse_href="page:U613"/>
+      <page name="DAPA padres" filename="dapa-padres.html" muse_href="page:U1139"/>
+      <page name="Español" filename="español.html" muse_href="page:U704"/>
+      <page name="Gracias" filename="gracias.html" muse_href="page:U1145"/>
+      <page name="Acerca de Nosotros" filename="acerca-de-nosotros.html" muse_href="page:U1013"/>
+      <page name="Nuestros Servicios" filename="nuestros-servicios.html" muse_href="page:U1047"/>
+      <page name="About Us" filename="about-us.html" muse_href="page:U84"/>
+      <page name="Contáctenos" filename="contáctenos.html" muse_href="page:U1081"/>
+      <page name="Deportation Defense" filename="deportation-defense.html" muse_href="page:U102"/>
+      <page name="Defensa Desmontaje" filename="defensa-desmontaje.html" muse_href="page:U1115"/>
+      <page name="Asylum" filename="asylum.html" muse_href="page:U114"/>
+      <page name="Violencia" filename="violencia.html" muse_href="page:U1121"/>
+      <page name="Contact Us" filename="contact-us.html" muse_href="page:U96"/>
+      <page name="DACA" filename="daca.html" muse_href="page:U120"/>
+    </DESKTOP>
+  </linkData>
+</manifest>

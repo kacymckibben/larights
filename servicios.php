@@ -12,70 +12,41 @@ include('mobile.php');
 	<link rel="shortcut icon" href="favicon.ico?" type="image">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79019013-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
-	<!-- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
-	<nav class="navbar navbar-fixed-top" role="navigation"> <!-- removed navbar-default -->
+	<nav class="navbar navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
 			<button type="button" class="btn btn-espanol navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        Menú
 		    </button>
 		    <div class="navbar-brand-div">
-		    	<a class="navbar-brand" href="index.html"><img class="img-responsive" src="img\logo2.svg"></a>
+		    	<a class="navbar-brand" href="inicio.php"><img class="img-responsive" src="img\logo2.svg"></a>
 		    </div>
 		    <ul class="nav navbar-nav navbar-right">
-				<li><a class="nav-link-espanol" style="display:none" href="services.html"><button class="btn btn-espanol">Inglés</button></a></li>
+				<li><a class="nav-link-espanol" style="display:none" href="services.php"><button class="btn btn-espanol">Inglés</button></a></li>
 			</ul>
 		</div>
 		<ul id="nav-link-espanol-desktop" class="nav navbar-nav navbar-right">
-			<li><a class="nav-link-espanol" href="services.html"><button class="btn btn-espanol">Inglés</button></a></li>
+			<li><a class="nav-link-espanol" href="services.php"><button class="btn btn-espanol">Inglés</button></a></li>
 		</ul>
 		<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-left">
-				<li><a class="nav-link" href="inicio.html">INICIO</a></li>
+				<li><a class="nav-link" href="inicio.php">INICIO</a></li>
 				<li><a class="nav-link" href="acerca-de-nosotros.html">ACERCA DE NOSOTROS</a></li>
-				<li><a class="nav-link active" href="servicios.html">SERVICIOS</a></li>
-				<li><a class="nav-link" href="contáctenos.html">CONTÁCTENOS</a></li>
+				<li><a class="nav-link active" href="servicios.php">SERVICIOS</a></li>
+				<li><a class="nav-link" href="contáctenos.php">CONTÁCTENOS</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -84,7 +55,7 @@ include('mobile.php');
 	?>
 	<div class="text-center">
 		<h3>Nuestros Servicios</h3>
-		<p>Nuestra firma ofrece una variedad de servicios de inmigración, incluyendo peticiones familiares, naturalización y visas de no-inmigrante (non-immigrant visas). La información contenida en nuestro sitio web es información general sobre leyes de inmigración.</p>
+		<p>Nuestra firma ofrece una variedad de servicios de inmigración, incluyendo peticiones familiares, naturalización y visas de no-inmigrante (non-immigrant visas). La información contenida en nuestro sitio web es información general sobre leyes de inmigración. <br><br><a href="https://egov.uscis.gov/casestatus/landing.do">El estado de su caso en USCIS</a><br><a href="https://www.uscis.gov/forms">USCIS Formas</a></p>
 	</div>
 	<div id="accordion" role="tablist" aria-multiselectable="true" class="service-accordion">
 	  <div class="panel panel-default">
@@ -94,15 +65,15 @@ include('mobile.php');
 	    	</div>
 	    </a>
 	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-			<p>El asilo permite la protección a través de la inmigración a los Estados Unidos para los que están siendo perseguidos o temen persecución en sus países de origen. Para ser elegible para el asilo, la persona debe establecer los siguientes factores:</P>
-			<ul>
-				<li>Miedo bien fundado de la persecución</li>
-				<li>Temer la persecución por razones de: raza, religión, nacionalidad, pertenecer a un grupo social en particular, o por sus opiniones políticas</li>
-				<li>Impuestos por el gobierno o por un grupo el cual el gobierno es incapaz o no dispuesto en controlar</li>
-				<li>Amerita un ejercicio favorable de criterio</li>
-			</ul>
+	      <p>El asilo permite la protección a través de la inmigración a los Estados Unidos para los que están siendo perseguidos o temen persecución en sus países de origen. Para ser elegible para el asilo, la persona debe establecer los siguientes factores:</P>
+  			<ul>
+  				<li>Miedo bien fundado de la persecución</li>
+  				<li>Temer la persecución por razones de: raza, religión, nacionalidad, pertenecer a un grupo social en particular, o por sus opiniones políticas</li>
+  				<li>Impuestos por el gobierno o por un grupo el cual el gobierno es incapaz o no dispuesto en controlar</li>
+  				<li>Amerita un ejercicio favorable de criterio</li>
+  			</ul>
 	      <!--<div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a>
+	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
 	      </div>-->
 	    </div>
 	  </div>
@@ -110,69 +81,69 @@ include('mobile.php');
 	    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 	    	<div class="panel-heading" role="tab" id="headingTwo">
 	      		<h4 class="panel-title">
-	          	Accion Diferida Para Los Llegados en La Infancia <span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span>(DACA)
+	          	Accion Diferida Para Los Llegados en <span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span>La Infancia (DACA)
 	      		</h4>
 	    	</div>
 		</a>
 	    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-	      <p>La Acción Diferida para los Llegados en la Infancia (DACA por sus siglas en ingles) es un programa iniciado por la administración Obama que permite a ciertas personas indocumentadas permanecer los Estados Unidos sin ser deportados.</p>
-  			<p>Requisitos para ser elegibles para la acción diferida:</p>
-  			<ul>
-  				<li>Haber tenido menos de 31 años antes de junio 15 del 2012</li>
-  				<li>Haber llegado a EEUU antes de haber cumplido 16 años de edad</li>
-  				<li>Haber residido continuamente en EEUU desde junio 15 del 2007 hasta la actualidad</li>
-  				<li>Haber estado presente en EEUU en junio 15 del 2012, y al momento de aplicar para la acción diferida con USCIS</li>
-  				<li>Haber entrado sin inspección antes de junio 15 del 2012, o su estatus legal de inmigración haberse expirado en junio 15 del 2012</li>
-  				<li>Estar en la escuela, haberse graduado u obtenido un diploma de finalización de la escuela secundaria, haber obtenido un certificado de educación general de desarrollo (GED), o haber sido honorablemente licenciado como veterano de la Guardia Costera o de las fuerzas armadas de los Estados Unidos</li>
-  				<li>No haber sido condenado por alguna felonía, delito menor significante, tres o más otro delito menor, y no ser una amenaza para la seguridad nacional o la seguridad pública</li>
-  			</ul>
-  			<p>Beneficios de la acción diferida:</p>
-  			<ul>
-  				<li>Permite obtener un permiso de trabajo</li>
-  				<li>Limita la deportación</li>
-  			</ul>
-  			<p><i>Tenga en cuenta que la acción diferida no le dará un estatus de residencia legal permanente (una tarjeta verde) y no es un camino a la ciudadanía</i></p>
-  			<h4 class="sub-title">Expansion de DACA</h4>
-  			<p>El programa expandido de DACA ha sido actualmente suspendido. Este programa, si llega a ser expandido incluirá a personas que llegaron a Estados Unidos antes de cumplir los 16 años de edad y no tendrá edad límite, hayan residido continuamente en los Estados Unidos comenzando desde enero 1 del 2010 y extenderá el permiso de trabajo por 3 años.</p>
-  			<p>Riesgos de la acción diferida:</p>
-  			<p>La acción diferida no es para todos, por ejemplo, los antecedentes criminales puede ponerlo en riesgo. Además, la acción diferida es un programa temporal. Consulte con un abogado hoy para pesar los beneficios y riesgos asociados en obtener la acción diferida.</p>
+			<p>La Acción Diferida para los Llegados en la Infancia (DACA por sus siglas en ingles) es un programa iniciado por la administración Obama que permite a ciertas personas indocumentadas permanecer los Estados Unidos sin ser deportados.</p>
+			<p>Requisitos para ser elegibles para la acción diferida:</p>
+			<ul>
+				<li>Haber tenido menos de 31 años antes de junio 15 del 2012</li>
+				<li>Haber llegado a EEUU antes de haber cumplido 16 años de edad</li>
+				<li>Haber residido continuamente en EEUU desde junio 15 del 2007 hasta la actualidad</li>
+				<li>Haber estado presente en EEUU en junio 15 del 2012, y al momento de aplicar para la acción diferida con USCIS</li>
+				<li>Haber entrado sin inspección antes de junio 15 del 2012, o su estatus legal de inmigración haberse expirado en junio 15 del 2012</li>
+				<li>Estar en la escuela, haberse graduado u obtenido un diploma de finalización de la escuela secundaria, haber obtenido un certificado de educación general de desarrollo (GED), o haber sido honorablemente licenciado como veterano de la Guardia Costera o de las fuerzas armadas de los Estados Unidos</li>
+				<li>No haber sido condenado por alguna felonía, delito menor significante, tres o más otro delito menor, y no ser una amenaza para la seguridad nacional o la seguridad pública</li>
+			</ul>
+			<p>Beneficios de la acción diferida:</p>
+			<ul>
+				<li>Permite obtener un permiso de trabajo</li>
+				<li>Limita la deportación</li>
+			</ul>
+			<p><i>Tenga en cuenta que la acción diferida no le dará un estatus de residencia legal permanente (una tarjeta verde) y no es un camino a la ciudadanía</i></p>
+			<h4 class="sub-title">Expansion de DACA</h4>
+			<p>El programa expandido de DACA ha sido actualmente suspendido. Este programa, si llega a ser expandido incluirá a personas que llegaron a Estados Unidos antes de cumplir los 16 años de edad y no tendrá edad límite, hayan residido continuamente en los Estados Unidos comenzando desde enero 1 del 2010 y extenderá el permiso de trabajo por 3 años.</p>
+			<p>Riesgos de la acción diferida:</p>
+			<p>La acción diferida no es para todos, por ejemplo, los antecedentes criminales puede ponerlo en riesgo. Además, la acción diferida es un programa temporal. Consulte con un abogado hoy para pesar los beneficios y riesgos asociados en obtener la acción diferida.</p>
 	      <!--<div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a>
+	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
 	      </div>-->
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
 	    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 	    	<div class="panel-heading" role="tab" id="headingThree">
-	      		<h4 class="panel-title">La Acción Diferida para los Padres de hijos Americanos y Residentes Legales Permanentes <span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span>(DAPA)</h4>
+	      		<h4 class="panel-title">La Acción Diferida para los Padres de hijos Americanos <span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span>y Residentes Legales Permanentes (DAPA)</h4>
 	    	</div>
 	    </a>
 	    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-	      <p>La Acción Diferida para los Padres de hijos Americanos y Residentes Legales Permanentes (“DAPA” por sus siglas en ingles) es una acción ejecutiva que permite a las personas que viven en EEUU una protección en contra de la deportación, un permiso de trabajo y un número de seguro social. Esta orden, actualmente, está detenida esperando la decisión de la corte.</p>
-  			<h4 class="sub-title">¿Califico para DAPA?</h4>
-  			<p>Los criterios para la DAPA son:</p>
-  			<ul>
-  				<li>Tener un(a) hijo(a) que sea ciudadano(a) estadounidense o residente legal permanente</li>
-  				<li>Haber vivido continuamente en EEUU desde enero 1 del 2010</li>
-  				<li>Haber estado presente en EEUU en noviembre 20 del 2014.  Es muy probable que usted tiene que estar presente en EEUU todos los días desde ahora hasta que aplique para DAPA</li>
-  				<li>No tener un estatus legal de inmigración. Para cumplir con este requisito, (1) usted debió haber entrado a EEUU sin papeles, o, si usted entro legalmente, su estatus legal de inmigración bebe haberse ya vencido; (2) no tener estatus legal de inmigración alguno al momento de aplicar para DAPA</li>
-  				<li>No haber sido condenado por ciertas ofensas criminales, incluyendo cualquier felonía y/o delitos menores</li>
-  			</ul>
-  			<h4 class="sub-title">¿Cuándo puedo aplicar para DAPA?</h4>
-  			<p>Por ahora usted no puede aplicar para DAPA, por favor tenga cuidado de personas que digan que usted puede aplicar ahora.</p>
-  			<h4 class="sub-title">¿Cómo puedo prepararme para DAPA?</h4>
-  			<p>Usted puede comenzar a reunir sus documentos. Es muy probable que los elementos que va a necesitar sean los siguientes:</p>
-  			<ul>
-  				<li>Dinero, se espera que el costo sea por lo menos de $465</li>
-  				<li>Prueba que usted estuvo presente en EEUU en noviembre 20 del 2014 (por ejemplo, usted puede obtener registros bancarios, y registros médicos, etc.)</li>
-  				<li>Prueba de su relación con un ciudadano estadounidense o residente permanente legal, certificado de nacimiento, certificado de naturalización, tarjeta de residencia, o pasaporte</li>
-  				<li>Prueba de identidad: documentos gubernamentales tales como pasaporte, certificado de nacimiento, etc.</li>
-  				<li>Prueba de que ha residido en EEUU desde enero 1 del 2010 tales como recibos de renta, acuerdos de arrendamiento, registros médicos, registros de empleo, declaraciones de impuestos, registros clericós, registros de escuela, facturas de servicios públicos</li>
+			<p>La Acción Diferida para los Padres de hijos Americanos y Residentes Legales Permanentes (“DAPA” por sus siglas en ingles) es una acción ejecutiva que permite a las personas que viven en EEUU una protección en contra de la deportación, un permiso de trabajo y un número de seguro social. Esta orden, actualmente, está detenida esperando la decisión de la corte.</p>
+			<h4 class="sub-title">¿Califico para DAPA?</h4>
+			<p>Los criterios para la DAPA son:</p>
+			<ul>
+				<li>Tener un(a) hijo(a) que sea ciudadano(a) estadounidense o residente legal permanente</li>
+				<li>Haber vivido continuamente en EEUU desde enero 1 del 2010</li>
+				<li>Haber estado presente en EEUU en noviembre 20 del 2014. Es muy probable que usted tiene que estar presente en EEUU todos los días desde ahora hasta que aplique para DAPA</li>
+				<li>No tener un estatus legal de inmigración. Para cumplir con este requisito, (1) usted debió haber entrado a EEUU sin papeles, o, si usted entro legalmente, su estatus legal de inmigración bebe haberse ya vencido; (2) no tener estatus legal de inmigración alguno al momento de aplicar para DAPA</li>
+				<li>No haber sido condenado por ciertas ofensas criminales, incluyendo cualquier felonía y/o delitos menores</li>
+			</ul>
+			<h4 class="sub-title">¿Cuándo puedo aplicar para DAPA?</h4>
+			<p>Por ahora usted no puede aplicar para DAPA, por favor tenga cuidado de personas que digan que usted puede aplicar ahora.</p>
+			<h4 class="sub-title">¿Cómo puedo prepararme para DAPA?</h4>
+			<p>Usted puede comenzar a reunir sus documentos. Es muy probable que los elementos que va a necesitar sean los siguientes:</p>
+			<ul>
+				<li>Dinero, se espera que el costo sea por lo menos de $465</li>
+				<li>Prueba que usted estuvo presente en EEUU en noviembre 20 del 2014 (por ejemplo, usted puede obtener registros bancarios, y registros médicos, etc.)</li>
+				<li>Prueba de su relación con un ciudadano estadounidense o residente permanente legal, certificado de nacimiento, certificado de naturalización, tarjeta de residencia, o pasaporte</li>
+				<li>Prueba de identidad: documentos gubernamentales tales como pasaporte, certificado de nacimiento, etc.</li>
+				<li>Prueba de que ha residido en EEUU desde enero 1 del 2010 tales como recibos de renta, acuerdos de arrendamiento, registros médicos, registros de empleo, declaraciones de impuestos, registros clericós, registros de escuela, facturas de servicios públicos</li>
   				<li>Obtener antecedentes penales y que un abogado los revise</li>
-  			</ul>
-	      <!-- <div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a>
-	      </div> -->
+			</ul>
+	      <!--<div class="text-center">
+	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
+	      </div>-->
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
@@ -182,7 +153,7 @@ include('mobile.php');
 	    	</div>
 	    </a>
 	    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-	      <p>Hay varias opciones disponibles para las personas que han sido colocadas bajo el proceso de deportación. A continuación se presenta una lista de algunos de los métodos comunes usados pero esta lista no es comprensiva.</p>
+  			<p>Hay varias opciones disponibles para las personas que han sido colocadas bajo el proceso de deportación. A continuación se presenta una lista de algunos de los métodos comunes usados pero esta lista no es comprensiva.</p>
 			<h4 class="sub-title">Cancelacion de Orden de Deportacion</h4>
 			<p>La cancelación de orden de deportación es una forma de alivio para las personas que están en proceso de deportación.</p>
 			<p>Hay dos tipos de cancelación de deportación disponibles y tienen diferentes requisitos para ser elegibles. El primer tipo es para los residentes legales permanentes (también conocidos como poseedores de una tarjeta verde), el segundo es para una persona que no es un residente legal.</p>
@@ -199,9 +170,9 @@ include('mobile.php');
 				<li>Dificultad excepcional y extremadamente inusual a un ciudadano estadounidense o residente legal permanente ya sea cónyuge, padre o hijo</li>
 				<li>No tener ofensas criminales que lo vayan a descalificar</li>
 			</ul>
-	      <!-- <div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a> -->
-	      </div>
+	      <!--<div class="text-center">
+	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
+	      </div>-->
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
@@ -211,10 +182,7 @@ include('mobile.php');
 	    	</div>
 		</a>
 	    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-	    	<p>La página viene pronto.</p>
-	      <!-- <div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a>
-	      </div> -->
+	      <p>La página viene pronto.</p>
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
@@ -237,35 +205,35 @@ include('mobile.php');
   			<p>EIncuso si usted ha cometido crímenes serios, usted puede aplicar a la Visa U, sin embargo, debería buscar consultoría con un abogado.</p>
   			<h4>¿Cuánto cuesta la Visa U?</h4>
   			<p>La Visa U es gratuita, sin embargo, la exención cuesta $585. Adicionalmente, hay una tarifa si desea obtener el permiso de trabajo para familiares. Personas con ingresos bajos puede calificar para la extensión de esta tarifa.</p>
-	      <!-- <div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a> -->
-	      </div>
+	      <!--<div class="text-center">
+	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
+	      </div>-->
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
 	    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 	    	<div class="panel-heading" role="tab" id="headingThree">
-	      		<h4 class="panel-title">Acta Contra La Violencia a La Mujer<span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span></h4>
+	      		<h4 class="panel-title">Acta Contra La Violencia a La Mujer (VAWA)<span class="glyphicon glyphicon-chevron-down pull-right" aria-hidden="true"></span></h4>
 	    	</div>
 		</a>
 	    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-	      <p>El acta contra la violencia a la mujer (VAWA por sus siglas en ingles) permite a las personas que han experimentado agresión o extrema crueldad obtener su estatus y, en ciertos casos puede ser usada como defensa en contra de la deportación. La persona tiene que demostrar lo siguiente:</p>
+	       <p>El acta contra la violencia a la mujer (VAWA por sus siglas en ingles) permite a las personas que han experimentado agresión o extrema crueldad obtener su estatus y, en ciertos casos puede ser usada como defensa en contra de la deportación. La persona tiene que demostrar lo siguiente:</p>
 		<ul>
 			<li>Usted fue el conyugue de un ciudadano estadounidense o un residente legal permanente abusador</li>
 			<li>Que él o ella es víctima de agresión o crueldad extrema</li>
 			<li>Dificultad extrema al solicitante o al conyugue, padre o hijo que es un ciudadano estadounidense o residente legal permanente</li>
 		</ul>
-	      <!-- <div class="text-center">
-	      	<a href="service-violence-against-women-act.html"><button class="btn btn-espanol btn-learnmore">Aprende Más</button></a>
-	      </div> -->
+	      <!--<div class="text-center">
+	      	<a href="service-violence-against-women-act.html"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
+	      </div>-->
 	    </div>
 	  </div>
 	</div>
 	<div class="container-fluid">
-		<h4>Not sure what you're looking for?</h4>
-		<a href="contáctenos.html"><button class="btn btn-cta-darkblue">CONTÁCTENOS</button></a>
+		<h4>¿No está seguro de lo que está buscando?</h4>
+		<a href="contáctenos.php"><button class="btn btn-cta-darkblue">CONTÁCTENOS</button></a>
 		<!--<p>We're happy to help! Give us a call or send us a message:</p>
-		<form id="ctaform" method="post" action="contact.php" onsubmit="validateForm();">
+		<form id="ctaform" method="post" action="contact-form.php" onsubmit="validateForm();">
 			<label>NAME</label><br>
 			<input id="name" name="name"><br>
 			<label>EMAIL</label><br>
@@ -287,13 +255,13 @@ include('mobile.php');
 	      			<div class="navbar fill">
 	      				<ul class="nav navbar-nav fill">
 	      					<li><a class="item sidebar-title" data-target="1" href="#">NUESTROS SERVICIOS</a></li>
-				            <li><a class="item" data-target="2" href="#">Asylum</a></li>
-				            <li><a class="item" data-target="3" href="#">Deferred Action for Childhood Arrivals (DACA)</a></li>
-				            <li><a class="item" data-target="4" href="#">Deferred Action for Parents of Americans (DAPA)</a></li>
-				            <li><a class="item" data-target="5" href="#">Deportation Defense</a></li>
-				            <li><a class="item" data-target="6" href="#">Family Petitions</a></li>
+				            <li><a class="item" data-target="2" href="#">Asilo</a></li>
+				            <li><a class="item" data-target="3" href="#">Accion Diferida Para Los Llegados en La Infancia (DACA)</a></li>
+				            <li><a class="item" data-target="4" href="#">La Acción Diferida para los Padres de hijos Americanos y Residentes Legales Permanentes (DAPA)</a></li>
+				            <li><a class="item" data-target="5" href="#">Defensa de Deportación</a></li>
+				            <li><a class="item" data-target="6" href="#">Peticiones Familiares</a></li>
 				            <li><a class="item" data-target="7" href="#">U Visas</a></li>
-				            <li><a class="item" data-target="8" href="#">Violence Against Women Act (VAWA)</a></li>
+				            <li><a class="item" data-target="8" href="#">Acta Contra La Violencia a La Mujer (VAWA)</a></li>
 			        	</ul>
 	      			</div>
 	      		</div>
@@ -305,9 +273,9 @@ include('mobile.php');
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
-						<div id="or">or</div>
+						<div id="or">o</div>
 					</div>
-					<a href="#"><button class="btn btn-cta-darkblue">ENVIA UN MENSAJE</button></a>
+					<a href="contáctenos.php"><button class="btn btn-cta-darkblue">ENVIA UN MENSAJE</button></a>
 					<img class="img-center img-responsive" src="img/pic_services.jpg" />
 	      		</div>
 	      		<div id="div2" class="targetDiv">
@@ -319,18 +287,18 @@ include('mobile.php');
 	      				<li>Impuestos por el gobierno o por un grupo el cual el gobierno es incapaz o no dispuesto en controlar</li>
 	      				<li>Amerita un ejercicio favorable de criterio</li>
 	      			</ul>
-	      			<p class="text-center schedule-an-appt">Schedule an appointment by calling:</p>
+	      			<!-- <p class="text-center schedule-an-appt">Schedule an appointment by calling:</p>
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
 						<div id="or">or</div>
 					</div>
 					<div class="text-center">
-						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
-					</div>
+						<a href="contact.php"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
+					</div> -->
 	      		</div>
 	      		<div id="div3" class="targetDiv">
-	      			<h2>Accion Diferida para Los Llegados en La Infancia (DACA)</h2>
+	      			<h2>Accion Diferida Para Los Llegados en La Infancia (DACA)</h2>
 	      			<p>La Acción Diferida para los Llegados en la Infancia (DACA por sus siglas en ingles) es un programa iniciado por la administración Obama que permite a ciertas personas indocumentadas permanecer los Estados Unidos sin ser deportados.</p>
 	      			<p>Requisitos para ser elegibles para la acción diferida:</p>
 	      			<ul>
@@ -422,11 +390,11 @@ include('mobile.php');
 						<div id="or">or</div>
 					</div>
 					<div class="text-center">
-						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a> -->
-					</div>
+						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
+					</div> -->
 	      		</div>
 	      		<div id="div6" class="targetDiv">
-	      			<p>La página viene muy pronto!</p>
+	      			<p>La página viene muy pronto.</p>
 	      		</div>
 	      		<div id="div7" class="targetDiv">
 	      			<h2>U Visas</h2>
@@ -464,40 +432,16 @@ include('mobile.php');
 	      		</div>
 	      	</div>
 	    </div><!-- end of row -->
-	    <!--<div class="row reviews reviews-bg">
-    		<div class="col-md-3"></div>
-			<div class="col-md-6 text-center">
-				<div class="row review-header">
-					<h2>What people are saying about L.A. Rights</h2>
-					<small>These testimonials or endorsements do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter.</small>
-				</div>
-				<div class="row review">
-					<p>“Ms. Kuwahara has been extremely informative and helpful throughout our legal process.”</p>
-					<p>- Amie</p>
-				</div>
-				<div class="row review">
-					<p>"Ms. Deniece Kuwahara has been a genuine dedicated and bright council to me. She has worked on couple of my cases and advised me on many others occasions. As an immigrant, she has been a strong actor in my life for the last 2 years. She is very good at her job and very caring. <span class="content">Her availability and flexibility were unprecedented and the results were there. With her, I was able to understand the process and it was important to me. After all the time I have spent with her, I will say that I have no doubt she is a gentile, dedicate human being who passionately care about immigrants and everybody's human rights. She has volunteered her time to many good causes and inspired me. Without hesitation, I would recommend her and her services."</span><a class="more-btn" href="">Read more...</a></p>
-					<p>- Patrick</p>
-				</div>
-				<div class="row review">
-					<p>“As many immigrants, lacking the resources to afford a private attorney, I let a public notary to handle my case, what seemed to be a cheap situation ended up being a terrible decision. After meeting several attorneys, - most not willing to take my case and others willing to take it at an exuberant cost, - I was so fortunate in finding Ms. Kuwahara. 
-					<span class="content">Ms. Kuwahara’s services are very affordable and her interest in helping the immigrant community is without precedent. After assessing my case and explaining the process in simple terms, I decided to let her handle my already complicated case.  She kept me informed at every stage of the process and thanks to her hard work now I enjoy legal staying in this country. I remain so thankful for her help.  Ms. Kuwahara’s compassion for the immigrant community is impressive.  Ms. Kuwahara is a strong fighter for human rights and advocates for the less fortunate. Her interaction with the immigrant community has given her the understanding of the legal difficulties it faces on a daily basis in this country.<br><br>Without hesitation I recommend Ms. Kuwahara’s services to family members, friends and to everyone in need of an excellent representation on immigration matters.”</span><a class="more-btn" href="">Read more...</a></p>		
-					<p>- Levi</p>
-				</div>
-				<small>These testimonials or endorsements do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter.</small>
-			</div>
-			<div class="col-md-3"></div>
-	    </div>-->
 	    <div class="row ctasmall">
 	    	<div class="col-md-4"></div>
 			<div class="col-md-4 text-center">
-				<h4 class="white">Schedule an appointment:</h4>
+				<h4 class="white">Programe una cita:</h4>
 				<h2 class="phone white">310-906-0946</h2>
 				<div class="or-container">
 					<hr class="or-hr">
-					<div id="or-grey">or</div>
+					<div id="or-grey">o</div>
 				</div>
-				<a href=""><button class="btn btn-cta">SEND A MESSAGE</button></a>
+				<a href="contáctenos.php"><button class="btn btn-cta">ENVIA UN MENSAJE</button></a>
 			</div>
 			<div class="col-md-4"></div>
 	    </div>
@@ -508,12 +452,11 @@ include('mobile.php');
 					<table class="pull-right">
 						<tbody>
 							<tr>
-								<td class="footer-label">PHONE</td><td>(310) 906-0946</td>
+								<td class="footer-label">TELÉFONO</td><td>(310) 906-0946</td>
 							</tr>
 							<tr>
-								<td class="footer-label">HOURS</td><td>Mon - Fri, 8 am - 5 pm</td>
+								<td class="footer-label">HORAS</td><td>Lunes - Viernes, 8 am - 5 pm</td>
 							</tr>
-							
 						</tbody>
 					</table>
 				</div>
@@ -521,7 +464,7 @@ include('mobile.php');
 					<table class="pull-left">
 						<tbody>
 							<tr>
-								<td class="footer-label">ADDRESS</td><td>1320 West Gardena Blvd, Suite 203</td>
+								<td class="footer-label">DIRECCIÓN</td><td>1320 West Gardena Blvd, Suite 203</td>
 							</tr>
 							<tr>
 								<td></td><td>Gardena, CA 90247</td>

@@ -1,0 +1,40 @@
+#yourmessagehasbeensentwea  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 714px;
+   z-index: 3;
+   top: 91px;
+   left: 70px;
+   position: absolute;
+}
+
+#page_content  {
+   min-height: 813px;
+}
+
+#i118thankyou  {
+   background-repeat: no-repeat;
+   background-image: url(sg_thank-you_media/d118thankyou.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 31px;
+   width: 306px;
+   z-index: 3;
+   top: 36px;
+   left: 272px;
+   position: absolute;
+}
+
+#card  {
+   background-repeat: no-repeat;
+   background-image: url(sg_thank-you_media/card.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 511px;
+   width: 800px;
+   z-index: 3;
+   top: 212px;
+   left: 0px;
+   position: absolute;
+}
+

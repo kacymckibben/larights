@@ -1,0 +1,55 @@
+#contactform fieldset {
+border: none; padding:10px; margin:2px;  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+ }
+
+#contactform fieldset legend {
+ }
+
+#contactform fieldset div label {
+ }
+
+#contactform fieldset div *:focus {
+ }
+
+#contactform fieldset div input,
+#contactform fieldset div textarea {
+ }
+
+#contactform fieldset div input.hinted {
+  background-color: #EEEEFF;
+  color: #323232;
+ }
+
+#contactform fieldset div input[type=checkbox]  {
+   width: 20px;
+   height: 15px;
+   background: none;
+   border: none;
+}
+
+#contactform fieldset div.centerac  {
+   position: relative;
+   left: 290px;
+   width: 260px;
+}
+
+#contactform fieldset div .fml  {
+   display: block;
+   text-align: left;
+   clear: both;
+}
+
+#contactform fieldset div .fmr  {
+   clear: both;
+   text-align: left;
+   width: 100%;
+}
+
+#contactform fieldset div  {
+   padding-bottom: 1em;
+}
+

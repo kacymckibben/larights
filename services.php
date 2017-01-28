@@ -8,74 +8,45 @@ include('mobile.php');
 	<link href='https://fonts.googleapis.com/css?family=Lato:900,700,400,300,100|Merriweather:700,400,300' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Services | Immigration Law | Los Angeles, CA | L.A. Rights Law Office</title>
+	<title>Services | Immigration Lawyer | Los Angeles, CA | L.A. Rights Law Office</title>
 	<link rel="shortcut icon" href="favicon.ico?" type="image">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79019013-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
-	<!-- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
-	<nav class="navbar navbar-fixed-top" role="navigation"> <!-- removed navbar-default -->
+	<nav class="navbar navbar-fixed-top" role="navigation">
 		<div class="navbar-header">
 			<button type="button" class="btn btn-espanol navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        Menu
 		    </button>
 		    <div class="navbar-brand-div">
-		    	<a class="navbar-brand" href="index.html"><img class="img-responsive" src="img\logo2.svg"></a>
+		    	<a class="navbar-brand" href="index.php"><img class="img-responsive" src="img\logo2.svg"></a>
 		    </div>
 		    <ul class="nav navbar-nav navbar-right">
-				<li><a class="nav-link-espanol" style="display:none" href="#"><button class="btn btn-espanol">Español</button></a></li>
+				<li><a class="nav-link-espanol" style="display:none" href="servicios.php"><button class="btn btn-espanol">Español</button></a></li>
 			</ul>
 		</div>
 		<ul id="nav-link-espanol-desktop" class="nav navbar-nav navbar-right">
-			<li><a class="nav-link-espanol" href="#"><button class="btn btn-espanol">Español</button></a></li>
+			<li><a class="nav-link-espanol" href="servicios.php"><button class="btn btn-espanol">Español</button></a></li>
 		</ul>
 		<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-left">
-				<li><a class="nav-link" href="index.html">HOME</a></li>
+				<li><a class="nav-link" href="index.php">HOME</a></li>
 				<li><a class="nav-link" href="about.html">ABOUT</a></li>
-				<li><a class="nav-link active" href="services.html">SERVICES</a></li>
-				<li><a class="nav-link" href="contact.html">CONTACT</a></li>
+				<li><a class="nav-link active" href="services.php">SERVICES</a></li>
+				<li><a class="nav-link" href="contact.php">CONTACT</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -84,7 +55,7 @@ include('mobile.php');
 	?>
 	<div class="text-center">
 		<h3>Our Services</h3>
-		<p>Our firm offers a variety of immigration services including family petitions, naturalization and other nonimmigrant visas. The information contained on our website is general information concerning our immigration laws.</p>
+		<p>Our firm offers a variety of immigration services including family petitions, naturalization and other nonimmigrant visas. The information contained on our website is general information concerning our immigration laws.<br><br><a href="https://egov.uscis.gov/casestatus/landing.do">Check your case status on USCIS</a><br><a href="https://www.uscis.gov/forms">USCIS Forms</a></p>
 	</div>
 	<div id="accordion" role="tablist" aria-multiselectable="true" class="service-accordion">
 	  <div class="panel panel-default">
@@ -211,9 +182,7 @@ include('mobile.php');
 	    	</div>
 		</a>
 	    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-	      <div class="text-center">
-	      	<a href="#"><button class="btn btn-espanol btn-learnmore">Learn More</button></a>
-	      </div>
+	      <p>Coming soon!</p>
 	    </div>
 	  </div>
 	  <div class="panel panel-default">
@@ -262,7 +231,7 @@ include('mobile.php');
 	</div>
 	<div class="container-fluid">
 		<h4>Not sure what you're looking for?</h4>
-		<a href="contact.html"><button class="btn btn-cta-darkblue">CONTACT US</button></a>
+		<a href="contact.php"><button class="btn btn-cta-darkblue">CONTACT US</button></a>
 		<!--<p>We're happy to help! Give us a call or send us a message:</p>
 		<form id="ctaform" method="post" action="contact-form.php" onsubmit="validateForm();">
 			<label>NAME</label><br>
@@ -306,7 +275,7 @@ include('mobile.php');
 						<hr class="or-hr-grey">
 						<div id="or">or</div>
 					</div>
-					<a href="#"><button class="btn btn-cta-darkblue">SEND US A MESSAGE</button></a>
+					<a href="contact.php"><button class="btn btn-cta-darkblue">SEND US A MESSAGE</button></a>
 					<img class="img-center img-responsive" src="img/pic_services.jpg" />
 	      		</div>
 	      		<div id="div2" class="targetDiv">
@@ -318,15 +287,15 @@ include('mobile.php');
 	      				<li>Imposed by the government or by a group which the government is unable or unwilling to control</li>
 	      				<li>Meriting a favorable exercise of discretion</li>
 	      			</ul>
-	      			<p class="text-center schedule-an-appt">Schedule an appointment by calling:</p>
+	      			<!-- <p class="text-center schedule-an-appt">Schedule an appointment by calling:</p>
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
 						<div id="or">or</div>
 					</div>
 					<div class="text-center">
-						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
-					</div>
+						<a href="contact.php"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
+					</div> -->
 	      		</div>
 	      		<div id="div3" class="targetDiv">
 	      			<h2>Deferred Action for Childhood Arrivals (DACA)</h2>
@@ -351,7 +320,7 @@ include('mobile.php');
 	      			<p>The expanded DACA program is currently on hold. The program, when it becomes available, will include individuals who arrived in the United States before the age of 16 without an age cap, have resided continuously in the United States starting in January 1, 2010 and expands the work authorization period to 3 years.</p>
 	      			<p>Risks of deferred action:</p>
 	      			<p>Deferred action is not for everybody, for example, any criminal history could put you at risk.  In addition, deferred action is a temporary program. Consult an attorney today to weigh the benefits and risks associated with obtaining deferred action.</p>
-	      			<p class="text-center">Schedule an appointment by calling:</p>
+	      			<!-- <p class="text-center">Schedule an appointment by calling:</p>
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
@@ -359,7 +328,7 @@ include('mobile.php');
 					</div>
 					<div class="text-center">
 						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
-					</div>
+					</div> -->
 	      		</div>
 	      		<div id="div4" class="targetDiv">
 	      			<h2>Deferred Action for Parents of Americans (DAPA)</h2>
@@ -385,7 +354,7 @@ include('mobile.php');
 	      				<li>Proof that you have lived in the United States since January 1, 2010, such as rent receipts, lease agreements, medical records, employment records, tax returns, church records, school records, utility bills</li>
 	      				<li>Obtain any criminal records and have an attorney review them</li>
 	      			</ul>
-	      			<p class="text-center">Schedule an appointment by calling:</p>
+	      			<!-- <p class="text-center">Schedule an appointment by calling:</p>
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
@@ -393,7 +362,7 @@ include('mobile.php');
 					</div>
 					<div class="text-center">
 						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
-					</div>
+					</div> -->
 	      		</div>
 	      		<div id="div5" class="targetDiv">
 	      			<h2>Deportation Defense</h2>
@@ -414,7 +383,7 @@ include('mobile.php');
 	      				<li>Exceptional and extremely unusual hardship to a U.S. Citizen or Lawful Permanent Resident spouse, parent or child</li>
 	      				<li>No criminal offenses that will disqualify you</li>
 	      			</ul>
-	      			<p class="text-center">Schedule an appointment by calling:</p>
+	      			<!-- <p class="text-center">Schedule an appointment by calling:</p>
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
@@ -422,7 +391,7 @@ include('mobile.php');
 					</div>
 					<div class="text-center">
 						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
-					</div>
+					</div> -->
 	      		</div>
 	      		<div id="div6" class="targetDiv">
 	      			<p>Coming soon!</p>
@@ -451,7 +420,7 @@ include('mobile.php');
 	      				<li>That he or she is the victim of battery or extreme cruelty</li>
 	      				<li>Extreme hardship to the applicant or to a spouse, parent or child who is a U.S. Citizen or lawful permanent resident</li>
 	      			</ul>
-	      			<p class="text-center">Schedule an appointment by calling:</p>
+	      			<!-- <p class="text-center">Schedule an appointment by calling:</p>
 					<h2 class="text-center phone">310-906-0946</h2>
 					<div class="or-container">
 						<hr class="or-hr-grey">
@@ -459,34 +428,10 @@ include('mobile.php');
 					</div>
 					<div class="text-center">
 						<a href="contact.html"><button class="btn btn-cta-darkblue">SEND A MESSAGE</button></a>
-					</div>
+					</div> -->
 	      		</div>
 	      	</div>
 	    </div><!-- end of row -->
-	    <!--<div class="row reviews reviews-bg">
-    		<div class="col-md-3"></div>
-			<div class="col-md-6 text-center">
-				<div class="row review-header">
-					<h2>What people are saying about L.A. Rights</h2>
-					<small>These testimonials or endorsements do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter.</small>
-				</div>
-				<div class="row review">
-					<p>“Ms. Kuwahara has been extremely informative and helpful throughout our legal process.”</p>
-					<p>- Amie</p>
-				</div>
-				<div class="row review">
-					<p>"Ms. Deniece Kuwahara has been a genuine dedicated and bright council to me. She has worked on couple of my cases and advised me on many others occasions. As an immigrant, she has been a strong actor in my life for the last 2 years. She is very good at her job and very caring. <span class="content">Her availability and flexibility were unprecedented and the results were there. With her, I was able to understand the process and it was important to me. After all the time I have spent with her, I will say that I have no doubt she is a gentile, dedicate human being who passionately care about immigrants and everybody's human rights. She has volunteered her time to many good causes and inspired me. Without hesitation, I would recommend her and her services."</span><a class="more-btn" href="">Read more...</a></p>
-					<p>- Patrick</p>
-				</div>
-				<div class="row review">
-					<p>“As many immigrants, lacking the resources to afford a private attorney, I let a public notary to handle my case, what seemed to be a cheap situation ended up being a terrible decision. After meeting several attorneys, - most not willing to take my case and others willing to take it at an exuberant cost, - I was so fortunate in finding Ms. Kuwahara. 
-					<span class="content">Ms. Kuwahara’s services are very affordable and her interest in helping the immigrant community is without precedent. After assessing my case and explaining the process in simple terms, I decided to let her handle my already complicated case.  She kept me informed at every stage of the process and thanks to her hard work now I enjoy legal staying in this country. I remain so thankful for her help.  Ms. Kuwahara’s compassion for the immigrant community is impressive.  Ms. Kuwahara is a strong fighter for human rights and advocates for the less fortunate. Her interaction with the immigrant community has given her the understanding of the legal difficulties it faces on a daily basis in this country.<br><br>Without hesitation I recommend Ms. Kuwahara’s services to family members, friends and to everyone in need of an excellent representation on immigration matters.”</span><a class="more-btn" href="">Read more...</a></p>		
-					<p>- Levi</p>
-				</div>
-				<small>These testimonials or endorsements do not constitute a guarantee, warranty, or prediction regarding the outcome of your legal matter.</small>
-			</div>
-			<div class="col-md-3"></div>
-	    </div>-->
 	    <div class="row ctasmall">
 	    	<div class="col-md-4"></div>
 			<div class="col-md-4 text-center">
@@ -496,7 +441,7 @@ include('mobile.php');
 					<hr class="or-hr">
 					<div id="or-grey">or</div>
 				</div>
-				<a href=""><button class="btn btn-cta">SEND A MESSAGE</button></a>
+				<a href="contact.php"><button class="btn btn-cta">SEND A MESSAGE</button></a>
 			</div>
 			<div class="col-md-4"></div>
 	    </div>
@@ -512,7 +457,6 @@ include('mobile.php');
 							<tr>
 								<td class="footer-label">HOURS</td><td>Mon - Fri, 8 am - 5 pm</td>
 							</tr>
-							
 						</tbody>
 					</table>
 				</div>

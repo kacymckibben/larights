@@ -1,0 +1,153 @@
+#i53deferredactionforchildhoo_p,
+#deportationdefensecolumnc_p,
+#asylumcolumnclickshow_p  {
+   display: none;
+}
+
+#deniecewasbornandraisedin  {
+   margin-bottom: 0px;
+   margin-top: 7px;
+   margin-right: 0px;
+   margin-left: 37px;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   width: 512px;
+}
+
+#forinformationregardingfa  {
+   margin-bottom: 0px;
+   margin-top: 3px;
+   margin-right: 0px;
+   margin-left: 63px;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   width: 704px;
+}
+
+#testimonialscolumn  {
+   min-height: 103px;
+   width: 825px;
+   top: 0px;
+   left: 0px;
+   position: relative;
+   margin-left: 5px;
+   margin-right: 0px;
+   margin-top: 9px;
+   margin-bottom: 3px;
+}
+
+#flagmancontent  {
+   margin-top: 0px;
+   margin-left: 0px;
+   width: 350px;
+   z-index: 3;
+   top: 34px;
+   left: 250px;
+   position: absolute;
+}
+
+#page_content  {
+   min-height: 1116px;
+}
+
+#testimonials  {
+   margin-bottom: 11px;
+   margin-top: 11px;
+   margin-right: 0px;
+   margin-left: 19px;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   width: 790px;
+}
+
+#aboutcolumn  {
+   min-height: 317px;
+   width: 825px;
+   top: 0px;
+   left: 0px;
+   position: relative;
+   margin-left: 5px;
+   margin-right: 0px;
+   margin-top: 13px;
+   margin-bottom: 0px;
+}
+
+#maincolumn  {
+   min-height: 771px;
+   width: 835px;
+   top: 0px;
+   left: 0px;
+   position: relative;
+   margin-left: 9px;
+   margin-right: 0px;
+   margin-top: 331px;
+   margin-bottom: 0px;
+}
+
+#piccontent  {
+   margin-bottom: 7px;
+   margin-top: 74px;
+   margin-right: 0px;
+   margin-left: 68px;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   width: 145px;
+}
+
+#shape1  {
+   background-repeat: no-repeat;
+   background-image: url(sg_home_media/shape1.gif);
+   margin-top: 0px;
+   margin-left: 0px;
+   height: 264px;
+   width: 809px;
+   z-index: 5;
+   top: 47px;
+   left: 8px;
+   position: absolute;
+}
+
+#layer3  {
+   background-image: none;
+   background-color: #000000;
+   margin-bottom: 0px;
+   margin-top: 7px;
+   margin-right: 0px;
+   margin-left: 1px;
+   position: relative;
+   left: 0px;
+   top: 0px;
+   width: 823px;
+   height: 16px;
+}
+
+.divider  {
+   display: block;
+   clear: left;
+}
+
+.column  {
+   display: inline;
+   position: relative;
+   float: left;
+   margin: 0px;
+   padding: 0px;
+}
+
+.col_bg  {
+   width: 100%;
+   top: 0px;
+   left: 0px;
+   z-index: 1;
+   position: absolute;
+}
+
+.flow  {
+   position: relative;
+   z-index: 2;
+}
+

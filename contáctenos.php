@@ -12,8 +12,16 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79019013-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 	<nav class="navbar navbar-fixed-top" role="navigation"> <!-- removed navbar-default -->
@@ -22,21 +30,21 @@
 		        Menú
 		    </button>
 		    <div class="navbar-brand-div">
-		    	<a class="navbar-brand" href="index.html"><img class="img-responsive" src="img\logo2.svg"></a>
+		    	<a class="navbar-brand" href="index.php"><img class="img-responsive" src="img\logo2.svg"></a>
 		    </div>
 		    <ul class="nav navbar-nav navbar-right">
-				<li><a class="nav-link-espanol" style="display:none" href="contact.html"><button class="btn btn-espanol">Inglés</button></a></li>
+				<li><a class="nav-link-espanol" style="display:none" href="contact.php"><button class="btn btn-espanol">Inglés</button></a></li>
 			</ul>
 		</div>
 		<ul id="nav-link-espanol-desktop" class="nav navbar-nav navbar-right">
-			<li><a class="nav-link-espanol" href="contact.html"><button class="btn btn-espanol">Inglés</button></a></li>
+			<li><a class="nav-link-espanol" href="contact.php"><button class="btn btn-espanol">Inglés</button></a></li>
 		</ul>
 		<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-left">
-				<li><a class="nav-link" href="inicio.html">INICIO</a></li>
+				<li><a class="nav-link" href="inicio.php">INICIO</a></li>
 				<li><a class="nav-link" href="acerca-de-nosotros.html">ACERCA DE NOSOTROS</a></li>
-				<li><a class="nav-link" href="servicios.html">SERVICIOS</a></li>
-				<li><a class="nav-link active" href="contáctenos.html">CONTÁCTENOS</a></li>
+				<li><a class="nav-link" href="servicios.php">SERVICIOS</a></li>
+				<li><a class="nav-link active" href="contáctenos.php">CONTÁCTENOS</a></li>
 			</ul>
 		</div>
 		
@@ -82,7 +90,7 @@
 					<input id="phone" name="phone" type="tel"><br>
 					<label class="label-white">MENSAJE</label><br>
 					<textarea id="message" rows="8" class="message" name="message" type="text"></textarea>
-					<input id="submit" class="btn btn-form-dkblue" name="submit" type="submit" value="SEND">
+					<input id="submit" class="btn btn-form-dkblue" name="submit" type="submit" value="ENVIA">
 				</form>
 			</div>
 		</div>

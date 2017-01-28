@@ -12,8 +12,16 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<!--<script src="https://use.typekit.net/fvj7blr.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79019013-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 	<nav class="navbar navbar-fixed-top" role="navigation"> <!-- removed navbar-default -->
@@ -22,21 +30,21 @@
 		        Menu
 		    </button>
 		    <div class="navbar-brand-div">
-		    	<a class="navbar-brand" href="index.html"><img class="img-responsive" src="img\logo2.svg"></a>
+		    	<a class="navbar-brand" href="index.php"><img class="img-responsive" src="img\logo2.svg"></a>
 		    </div>
 		    <ul class="nav navbar-nav navbar-right">
-				<li><a class="nav-link-espanol" style="display:none" href="contáctenos.html"><button class="btn btn-espanol">Español</button></a></li>
+				<li><a class="nav-link-espanol" style="display:none" href="contáctenos.php"><button class="btn btn-espanol">Español</button></a></li>
 			</ul>
 		</div>
 		<ul id="nav-link-espanol-desktop" class="nav navbar-nav navbar-right">
-			<li><a class="nav-link-espanol" href="contáctenos.html"><button class="btn btn-espanol">Español</button></a></li>
+			<li><a class="nav-link-espanol" href="contáctenos.php"><button class="btn btn-espanol">Español</button></a></li>
 		</ul>
 		<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-left">
-				<li><a class="nav-link" href="index.html">HOME</a></li>
+				<li><a class="nav-link" href="index.php">HOME</a></li>
 				<li><a class="nav-link" href="about.html">ABOUT</a></li>
-				<li><a class="nav-link" href="services.html">SERVICES</a></li>
-				<li><a class="nav-link active" href="contact.html">CONTACT</a></li>
+				<li><a class="nav-link" href="services.php">SERVICES</a></li>
+				<li><a class="nav-link active" href="contact.php">CONTACT</a></li>
 			</ul>
 		</div>
 		
